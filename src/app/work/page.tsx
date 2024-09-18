@@ -180,6 +180,29 @@ const Work: React.FC = () => {
       live: "https://password-generator-youssef-habib3.vercel.app/",
       github: "https://github.com/Youssef-Habib3/Password-Generator",
     },
+    {
+      num: "07",
+      category: "Front-End",
+      title: "Project 7",
+      description: "Hydra App",
+      stack: [
+        {
+          name: "React",
+        },
+        {
+          name: "TypeScript",
+        },
+        {
+          name: "Tailwind",
+        },
+        {
+          name: "Shadcn",
+        },
+      ],
+      image: "/imgs/hydra-app.png",
+      live: "https://hydra-app-youssef-habib3.vercel.app/",
+      github: "https://github.com/Youssef-Habib3/Hydra-App",
+    },
   ];
 
   const [project, setProject] = useState<Project>(projects[0]);
